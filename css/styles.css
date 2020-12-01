@@ -104,7 +104,7 @@ img {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1,14;
   letter-spacing: 0.02em;
 }
 .header-nav-list {
@@ -243,9 +243,12 @@ img {
   justify-content: space-between;
 }
 .team-list-item{
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
 border: 1px solid 000000;
 border-radius: 0px 0px 4px 4px;
+background: #FFFFFF;
 
 }
 .card-content {
@@ -286,15 +289,15 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color
+  color: var(--secondary-text-color);
 }
 
 /* Portfolio buttons */
 
 .portfolio-filter {
-display: flex;
-justify-content: center;
-margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio {
@@ -308,6 +311,7 @@ padding: 0px;
 .portfolio-item{
 margin-left: 30px;
 margin-top: 30px;
+max-width: 370 px;
 }
 
 .portfolio-btn {
@@ -345,6 +349,32 @@ margin-top: 30px;
 .portfolio-link > .portfolio-subtitle {
   color: var(--secondary-text-color);
 }
+.portfolio-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+padding-left: ;
+}
+.portfolio-subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+.portfolio-card{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+background: #FFFFFF;
+width: 370px;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+}
+
 
 /*==================END MAIN=================*/
 /*==================FOOTER===================*/
@@ -355,7 +385,7 @@ margin-top: 30px;
   padding-bottom: 60px;
 }
 .footer-logo {
-  display: inline-block;
+  display: block;
   font-family: var(--logo-font);
   font-weight: bold;
   font-size: 26px;
@@ -363,23 +393,20 @@ margin-top: 30px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
-  outline: 1px solid springgreen;
   margin-bottom: 20px;
   
 }
 .footer-contacts-address {
-  margin-bottom: 9px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  outline: 1px solid springgreen;
 }
 .footer-contacts-link {
-  display: inline-block;
-  margin-bottom: 9px;
+  display: block;
+  margin-top: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
